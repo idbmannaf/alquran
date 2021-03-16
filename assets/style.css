@@ -1,0 +1,74 @@
+body {
+    background: url('bg.jpg');
+    background-repeat: repeat;
+}
+main.container{
+    min-height: 332px;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.login {
+    max-width: 300px;
+    margin: auto;
+}
+
+.register {
+    max-width: 350px;
+    margin: auto;
+}
+
+.edit-surah,
+.edit-ayat {
+    max-width: 500px;
+    margin: auto;
+}
+
+.islamic-bg{
+    background-color: #3f6004;
+    background-image: url('banner.png');
+    background-size: cover;
+    height: 112px;
+}
+.islamic-bg a.nav-link {
+    color: white!important;
+}
+.card-main{
+    background-color: #3f6004;
+}
+
+footer {
+    background-color: #304200;
+    color: white;
+    margin-top: 14rem;
+    padding: 20px;
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
